@@ -1,0 +1,15 @@
+Player p;
+
+void setup(){
+  size(1800,1000);
+  p = new Player();
+
+}
+
+void draw(){
+ background(255);
+ p.display();
+  
+  
+  
+}
